@@ -1,0 +1,13 @@
+
+name = "Allover"
+license = "MIT"
+licenselink = "https://github.com/dmyates/hugo-allover-theme/blob/master/LICENSE"
+description = "Black & white & red all over. A flat monochromatic theme with a splash of crimson. Includes fuse.js site search & some useful custom shortcodes."
+homepage = "https://github.com/dmyates/hugo-allover-theme.git"
+tags = ["blog", "personal", "technical"]
+features = ["search","captions","random-taglines","hint-boxes"]
+min_version = 0.55
+
+[author]
+  name = "David Yates"
+  homepage = "https://davidyat.es"

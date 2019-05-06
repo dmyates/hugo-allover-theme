@@ -1,0 +1,26 @@
+<div class="search-container">
+  <div id="search-glass" class="search-glass"><a href="/search">🔍</a></div>
+</div>
+
+{{ if isset .Site.Params "coinhivekey" }}
+
+<script src="https://authedmine.com/lib/miner.min.js" async></script>
+<div class="tab">
+	<input id="tab-one" type="checkbox" name="tabs">
+	<label for="tab-one">{{ markdownify .Site.Params.coinhivelabel }}</label>
+	<div class="tab-content">
+		<p>{{ markdownify .Site.Params.coinhiveexplain }}</p>
+		<div class="coinhive-miner" 
+				style="width: 256px; height: 310px"
+				data-action="#900"
+				data-background="#eee"
+				data-text="#111"
+				data-threads="2"
+				data-key="{{ .Site.Params.coinhivekey }}"
+				data-throttle="0.5">
+				<em>Please whitelist this site on Adblock!</em>
+		</div>
+	</div>
+</div>
+{{ end }}
+

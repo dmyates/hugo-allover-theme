@@ -1,0 +1,6 @@
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+<div class="pagination">
+	<p class="page-number">
+	{{ if eq $paginator.HasPrev true }}<a href="{{ $paginator.Prev.URL }}">&larr;</a>{{ end }}  {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }} {{ if eq $paginator.HasNext true }} <a href="{{ $paginator.Next.URL }}">&rarr;</a>{{ end }}
+	</p>
+</div>

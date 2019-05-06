@@ -1,0 +1,6 @@
+<nav class="navlink-container">
+	<ul class="navlink-container">
+		{{ range .Site.Menus.main }}<li class="navlink"><a href="{{ .URL }}">{{ .Name }}</a></li>
+		{{ end }}
+	</ul>
+</nav>

@@ -1,0 +1,19 @@
+{{ $firstninety := split .Content " " | first 90 }}
+{{ $stripnewlines := replace (delimit $firstninety " ") "\n" "" }}
+{{ $stripcaptions := replaceRE "<sup.*?>.*?</sup>" "" $stripnewlines }}
+{{ $stripheadings := replaceRE "<h[1-6].*?>.*?</h[1-6]>" "" $stripcaptions }}
+{{ $stripfootnotes := replaceRE "<div class=\"footnotes\">.*?</div>" "" $stripheadings }}
+{{ $excerpt := $stripfootnotes | plainify | safeHTML }}
+<div class="post-excerpt">
+	<div class={{ if isset .Params "image" }}"post-excerpt-meta"{{ else }}"post-excerpt-noimage"{{ end }}>
+		
+		<div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+		<time  datetime="{{ .Date.Format "2006-01-02" }}" class="post-date">{{ .Date.Format "2 January 2006"}} </time> {{ partial "tags" . }}
+		<p>{{ $excerpt }}<a class="read-more" href="{{ .RelPermalink }}">...</a></p>
+	</div>
+  {{ if isset .Params "image" }}
+		<figure class="post-excerpt-img">
+			<a href="{{ .RelPermalink }}"><img src="/content{{ .Params.image }}"></a>
+		</figure>
+  {{ end }}
+</div>

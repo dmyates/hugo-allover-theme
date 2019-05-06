@@ -1,0 +1,28 @@
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+
+  <main role="main" class="page">
+    <div class="post-content">
+      <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+      {{ if eq .Type "post" }}
+      <time  datetime="{{ .Date.Format "2006-01-02" }}" class="post-date">{{ .Date.Format "2 January 2006"}} </time> {{ partial "tags" . }}
+      {{ end }}
+
+      <div class="post-content">
+        {{ if eq .Type "post" }}
+          {{ if and (isset .Params "image") (not (isset .Params "image_within")) }}
+            <img src="{{ .Params.image }}" class="post-img">
+          {{ end }}
+        {{ end }}
+        {{ .Content }}
+      </div>
+    </div>
+    {{ if eq .Type "post" }}
+      {{ partial "post-footer.html" . }}
+    {{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+</body>
+</html>

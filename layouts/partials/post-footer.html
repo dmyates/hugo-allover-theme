@@ -1,0 +1,10 @@
+{{ $baseurl := .Site.BaseURL }}
+<footer class="post-footer">
+  {{ if .PrevInSection}}
+    <a href="{{ .PrevInSection.RelPermalink }}"><span class="pnp-arrow">←</span>{{ .PrevInSection.Title }}</a>
+  {{ end }}
+  {{ if and .NextInSection .PrevInSection}} | {{ end }}
+  {{ if .NextInSection}}
+    <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}<span class="pnp-arrow">→</span></a>
+  {{ end }}
+</footer>
