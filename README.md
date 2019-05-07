@@ -65,13 +65,13 @@ Nice pale yellow inline hint boxes with a sans-serif font.
 
 ```
 {{% hint-box-env %}}
-Some tangential subject that's still too long/relevant to be relegated to a footnote.
+**Warning**: It is very dangerous to run with scissors.
 {{% /hint-box-env %}}
 ```
 
-Which looks like:
+These hint boxes look like this:
 
-![]()
+![](https://github.com/dmyates/hugo-allover-theme/blob/master/hint-box.png)
 
 ### Captions
 
