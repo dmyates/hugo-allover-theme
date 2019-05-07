@@ -1,7 +1,7 @@
 <div class="site-header">
   {{ partial "navigation.html" . }}
   <header>
-    <span class="site-title"><a href="/">{{ .Site.Title }}</a></span>
+    <span class="site-title"><a href="{{ print .Site.BaseURL }}">{{ .Site.Title }}</a></span>
     <div class="site-description">{{ if isset .Site.Params "descriptions" }}{{ $description := .Site.Params.descriptions | shuffle | first 1 }}{{ delimit $description "" }}{{ end }}</div>
   </header>
 </div>

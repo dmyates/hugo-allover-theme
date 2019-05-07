@@ -1,9 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://dmyates.github.io/hugo-all-over-theme"
 languageCode = "en-gb"
 title = "wonderland"
 copyright = "Theme by David Yates. Text and illustrations from Project Gutenburg."
 theme = "hugo-allover-theme"
 themesDir = "../.."
+publishDir = "../public"
 footnoteReturnLinkContents = "↩"
 paginate = 5
 pluralizelisttitles = false
