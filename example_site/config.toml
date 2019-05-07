@@ -1,4 +1,4 @@
-baseURL = "https://dmyates.github.io/hugo-all-over-theme"
+baseURL = "https://dmyates.github.io/hugo-allover-theme"
 languageCode = "en-gb"
 title = "wonderland"
 copyright = "Theme by David Yates. Text and illustrations from Project Gutenburg."
@@ -25,6 +25,7 @@ descriptions = ["Curiouser and curiouser!",
 		"She's under sentence of execution.",
 		"Rule forty-two. All persons more than a mile high to leave the court."
 ]
+twitter = "@davidyat_es"
 
 [permalinks]
 post = "/:year/:month/:day/:filename/"
