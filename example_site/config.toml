@@ -1,0 +1,49 @@
+baseURL = "http://example.org/"
+languageCode = "en-gb"
+title = "wonderland"
+copyright = "Theme by David Yates. Text and illustrations from Project Gutenburg."
+theme = "hugo-allover-theme"
+themesDir = "../.."
+footnoteReturnLinkContents = "↩"
+paginate = 5
+pluralizelisttitles = false
+pygmentsstyle = "friendly"
+pygmentscodefences = true
+pygmentsuseclasses = true
+
+[params]
+descriptions = ["Curiouser and curiouser!",
+		"And what is the use of a book without pictures or conversations?",
+		"Oh dear! Oh dear! I shall be too late!",
+		"ORANGE MARMALADE",
+		"DRINK ME",
+		"If you drink from a bottle marked \"poison,\" it is almost certain to disagree with you, sooner or later.",
+		"Why is a raven like a writing-desk?",
+		"I didn't know that Cheshire-Cats always grinned; in fact, I didn't know that cats could grin.",
+		"It's very easy to take more than nothing.",
+		"She's under sentence of execution.",
+		"Rule forty-two. All persons more than a mile high to leave the court."
+]
+
+[permalinks]
+post = "/:year/:month/:day/:filename/"
+page = "/:filename/"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+name = "Alice"
+identifier = "alice"
+url = "/alice/"
+
+[[menu.main]]
+name = "Looking"
+identifier = "looking"
+url = "/looking/"
+
+[[menu.main]]
+name = "Glass"
+identifier = "glass"
+url = "/glass/"
+
