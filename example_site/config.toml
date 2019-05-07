@@ -27,9 +27,23 @@ descriptions = ["Curiouser and curiouser!",
 ]
 twitter = "@davidyat_es"
 
+[blackfriday]
+latexDashes = true
+plainIDAnchors = true
+fractions = false
+extensions = [
+	"DefinitionLists",
+]
+
 [permalinks]
 post = "/:year/:month/:day/:filename/"
 page = "/:filename/"
+
+[taxonomies]
+tag = "tags"
+
+[outputFormats.RSS]
+baseName = "rss"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
