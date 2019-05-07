@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on wonderland</title>
-    <link>https://dmyates.github.io/hugo-all-over-theme/categories/</link>
+    <link>https://dmyates.github.io/hugo-allover-theme/categories/</link>
     <description>Recent content in Categories on wonderland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
     
-	<atom:link href="https://dmyates.github.io/hugo-all-over-theme/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dmyates.github.io/hugo-allover-theme/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
