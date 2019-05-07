@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/alice/</loc>
+    <lastmod>2019-05-07T20:57:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/looking/</loc>
+    <lastmod>2019-05-07T20:57:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/page/</loc>
+    <lastmod>2019-05-07T20:57:47+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/glass/</loc>
+    <lastmod>2019-05-07T20:57:47+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-05-07T20:57:47+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2019/05/07/custom-shortcodes/</loc>
+    <lastmod>2019-05-07T20:16:18+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2019-05-07T20:16:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2019-05-07T20:16:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/formatting/</loc>
+    <lastmod>2019-05-07T20:16:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/shortcodes/</loc>
+    <lastmod>2019-05-07T20:16:18+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/2019/05/07/markdown-syntax/</loc>
+    <lastmod>2019-05-07T20:08:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/markdown/</loc>
+    <lastmod>2019-05-07T20:08:52+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</loc>
+    <lastmod>1862-07-07T19:33:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/alice/</loc>
+    <lastmod>1862-07-07T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/little-bill/</loc>
+    <lastmod>1862-07-07T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/white-rabbit/</loc>
+    <lastmod>1862-07-07T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</loc>
+    <lastmod>1862-07-06T19:33:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/long-tail/</loc>
+    <lastmod>1862-07-06T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/long-tale/</loc>
+    <lastmod>1862-07-06T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/1862/07/05/ch2-the-pool-of-tears/</loc>
+    <lastmod>1862-07-05T19:33:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/curiouser/</loc>
+    <lastmod>1862-07-05T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/mice/</loc>
+    <lastmod>1862-07-05T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/1862/07/04/ch1-down-the-rabbit-hole/</loc>
+    <lastmod>1862-07-04T19:33:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/down-down-down/</loc>
+    <lastmod>1862-07-04T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/drink-me/</loc>
+    <lastmod>1862-07-04T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/eat-me/</loc>
+    <lastmod>1862-07-04T19:33:58+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/search/</loc>
+    <priority>0.1</priority>
+  </url>
+  
+</urlset>
