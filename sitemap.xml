@@ -150,11 +150,6 @@
   </url>
   
   <url>
-    <loc>https://dmyates.github.io/hugo-allover-theme/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://dmyates.github.io/hugo-allover-theme/search/</loc>
     <priority>0.1</priority>
   </url>
