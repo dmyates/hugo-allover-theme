@@ -37,7 +37,7 @@ You can intersperse your text bodies with nice pale yellow inline "hint boxes" w
 {{% hint-box %}}
 These boxes can also be used for long sidebars. I generally use them for anything that's too important for a footnote but doesn't quite flow with the main text.
 
-![](/images/1890/01/i022.jpg)
+![](/static/images/1890/01/i022.jpg)
 {{% caption "Shortcodes can be used in hint boxes." %}}
 
 You can put any formatting in here. Footnotes[^1] can be used as long as you keep both the ref and actual note in the box. 

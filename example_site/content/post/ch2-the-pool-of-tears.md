@@ -20,7 +20,7 @@ After a time, she heard a little pattering of feet in the distance and she hasti
 
 When the Rabbit came near her, Alice began, in a low, timid voice, "If you please, sir--" The Rabbit started violently, dropped the white kid-gloves and the fan and skurried away into the darkness as hard as he could go.
 
-![](/images/1890/01/i004.jpg)
+![](/static/images/1890/01/i004.jpg)
 
 Alice took up the fan and gloves and she kept fanning herself all the time she went on talking. "Dear, dear! How queer everything is to-day!  And yesterday things went on just as usual. _Was_ I the same when I got up this morning? But if I'm not the same, the next question is, 'Who in the world am I?' Ah, _that's_ the great puzzle!"
 
@@ -30,7 +30,7 @@ As she said this, she looked down at her hands and was surprised to see that she
 
 As she said these words, her foot slipped, and in another moment, splash! she was up to her chin in salt-water. Her first idea was that she had somehow fallen into the sea. However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.
 
-![](/images/1890/01/i005.jpg)
+![](/static/images/1890/01/i005.jpg)
 
 Just then she heard something splashing about in the pool a little way off, and she swam nearer to see what it was: she soon made out that it was only a mouse that had slipped in like herself.
 
@@ -45,7 +45,7 @@ rather not."
 
 "We, indeed!" cried the Mouse, who was trembling down to the end of its tail. "As if _I_ would talk on such a subject! Our family always _hated_ cats--nasty, low, vulgar things! Don't let me hear the name again!"
 
-![](/images/1890/01/plate02.jpg)
+![](/static/images/1890/01/plate02.jpg)
 {{% caption "Alice at the Mad Tea Party" %}}
 
 "I won't indeed!" said Alice, in a great hurry to change the subject of conversation. "Are you--are you fond--of--of dogs? There is such a nice little dog near our house, I should like to show you! It kills all the rats and--oh, dear!" cried Alice in a sorrowful tone. "I'm afraid I've offended it again!" For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.
@@ -54,4 +54,4 @@ So she called softly after it, "Mouse dear! Do come back again, and we won't tal
 
 It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it; there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way and the whole party swam to the shore.
 
-![](/images/1890/01/i006.jpg)
+![](/static/images/1890/01/i006.jpg)

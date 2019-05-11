@@ -6,7 +6,7 @@
       <section class="post-content">
         <h1>Search {{.Site.Title}}</h1>
         <p>Type your search query below.</p>
-        <form action="{{ "search" | absURL }}">
+        <form action="{{ .Site.BaseURL }}/search">
           <input id="search-query" name="s" style=/>
           <input type="submit" class="search-button" name="Search">
         </form>

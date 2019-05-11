@@ -14,7 +14,7 @@ So she was considering in her own mind (as well as she could, for the day made h
 
 There was nothing so very remarkable in that, nor did Alice think it so very much out of the way to hear the Rabbit say to itself, "Oh dear! Oh dear! I shall be too late!" But when the Rabbit actually took a watch out of its waistcoat-pocket and looked at it and then hurried on, Alice started to her feet, for it flashed across her mind that she had never before seen a rabbit with either a waistcoat-pocket, or a watch to take out of it, and, burning with curiosity, she ran across the field after it and was just in time to see it pop down a large rabbit-hole, under the hedge. In another moment, down went Alice after it!
 
-![](/images/1890/01/i001.jpg)
+![](/static/images/1890/01/i001.jpg)
 
 The rabbit-hole went straight on like a tunnel for some way and then dipped suddenly down, so suddenly that Alice had not a moment to think about stopping herself before she found herself falling down what seemed to be a very deep well.
 
@@ -28,7 +28,7 @@ She found herself in a long, low hall, which was lit up by a row of lamps hangin
 
 Suddenly she came upon a little table, all made of solid glass. There was nothing on it but a tiny golden key, and Alice's first idea was that this might belong to one of the doors of the hall; but, alas! either the locks were too large, or the key was too small, but, at any rate, it would not open any of them. However, on the second time 'round, she came upon a low curtain she had not noticed before, and behind it was a little door about fifteen inches high. She tried the little golden key in the lock, and to her great delight, it fitted!
 
-![](/images/1890/01/i002.jpg)
+![](/static/images/1890/01/i002.jpg)
 
 Alice opened the door and found that it led into a small passage, not much larger than a rat-hole; she knelt down and looked along the passage into the loveliest garden you ever saw. How she longed to get out of that dark hall and wander about among those beds of bright flowers and those cool fountains, but she could not even get her head through the doorway. "Oh," said Alice, "how I wish I could shut up like a telescope!  I think I could, if I only knew how to begin."
 
@@ -50,4 +50,4 @@ Soon her eye fell on a little glass box that was lying under the table: she open
 
 She ate a little bit and said anxiously to herself, "Which way? Which way?" holding her hand on the top of her head to feel which way she was growing; and she was quite surprised to find that she remained the same size. So she set to work and very soon finished off the cake.
 
-![](/images/1890/01/i003.jpg)
+![](/static/images/1890/01/i003.jpg)

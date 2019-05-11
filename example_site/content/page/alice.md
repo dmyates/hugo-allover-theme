@@ -7,5 +7,5 @@ draft = false
 
 Alice is a seven-year old girl who falls down a rabbit hole following a strange talking rabbit with a pocket watch. Later, she went through the looking-glass and found something there.
 
-![](/images/1890/01/cover.jpg)
+![](/static/images/1890/01/cover.jpg)
 
