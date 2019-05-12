@@ -10,7 +10,7 @@ image_within = true
 
 They were indeed a queer-looking party that assembled on the bank--the birds with draggled feathers, the animals with their fur clinging close to them, and all dripping wet, cross and uncomfortable.  
 
-![](/static/images/1890/01/i007.jpg)
+![](/hugo-allover-theme/images/1890/01/i007.jpg)
 
 The first question, of course, was how to get dry again. They had a consultation about this and after a few minutes, it seemed quite natural to Alice to find herself talking familiarly with them, as if she had known them all her life.
 
@@ -40,7 +40,7 @@ The Mouse did not notice this question, but hurriedly went on, "'--found it advi
 
 "What _is_ a Caucus-race?" said Alice.
 
-![](/static/images/1890/01/i008.jpg)
+![](/hugo-allover-theme/images/1890/01/i008.jpg)
 
 "Why," said the Dodo, "the best way to explain it is to do it." First it marked out a race-course, in a sort of circle, and then all the party were placed along the course, here and there. There was no "One, two, three and away!" but they began running when they liked and left off when they liked, so that it was not easy to know when the race was over.  However, when they had been running half an hour or so and were quite dry again, the Dodo suddenly called out, "The race is over!" and they all crowded 'round it, panting and asking, "But who has won?"
 
@@ -120,6 +120,6 @@ The next thing was to eat the comfits; this caused some noise and confusion, as 
 
 "I wish I hadn't mentioned Dinah! Nobody seems to like her down here and I'm sure she's the best cat in the world!" Poor Alice began to cry again, for she felt very lonely and low-spirited. In a little while, however, she again heard a little pattering of footsteps in the distance and she looked up eagerly.
 
-![](/static/images/1890/01/i009.jpg)
+![](/hugo-allover-theme/images/1890/01/i009.jpg)
 
-![](/static/images/1890/01/i010.jpg)
+![](/hugo-allover-theme/images/1890/01/i010.jpg)

@@ -125,6 +125,7 @@ This was the poem that Alice read.
       Did gyre and gimble in the wabe;
      All mimsy were the borogoves,
       And the mome raths outgrabe.
+
 ‘It seems very pretty,’ she said when she had finished it, ‘but it’s rather hard to understand!’ (You see she didn’t like to confess, ever to herself, that she couldn’t make it out at all.) ‘Somehow it seems to fill my head with ideas—only I don’t exactly know what they are! However, somebody killed something: that’s clear, at any rate—’
 
 ‘But oh!’ thought Alice, suddenly jumping up, ‘if I don’t make haste I shall have to go back through the Looking-glass, before I’ve seen what the rest of the house is like! Let’s have a look at the garden first!’ She was out of the room in a moment, and ran down stairs—or, at least, it wasn’t exactly running, but a new invention of hers for getting down stairs quickly and easily, as Alice said to herself. She just kept the tips of her fingers on the hand-rail, and floated gently down without even touching the stairs with her feet; then she floated on through the hall, and would have gone straight out at the door in the same way, if she hadn’t caught hold of the door-post. She was getting a little giddy with so much floating in the air, and was rather glad to find herself walking again in the natural way.

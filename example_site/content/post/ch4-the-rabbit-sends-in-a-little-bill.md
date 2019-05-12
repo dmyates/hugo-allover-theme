@@ -20,7 +20,7 @@ Before she had drunk half the bottle, she found her head pressing against the ce
 
 Alas! It was too late to wish that! She went on growing and growing and very soon she had to kneel down on the floor. Still she went on growing, and, as a last resource, she put one arm out of the window and one foot up the chimney, and said to herself, "Now I can do no more, whatever happens. What _will_ become of me?"
 
-![](/static/images/1890/01/i011.jpg)
+![](/hugo-allover-theme/images/1890/01/i011.jpg)
 
 Luckily for Alice, the little magic bottle had now had its full effect and she grew no larger. After a few minutes she heard a voice outside and stopped to listen.
 
@@ -54,12 +54,12 @@ After a minute or two of silence, they began moving about again, and Alice heard
 
 So she swallowed one of the cakes and was delighted to find that she began shrinking directly. As soon as she was small enough to get through the door, she ran out of the house and found quite a crowd of little animals and birds waiting outside. They all made a rush at Alice the moment she appeared, but she ran off as hard as she could and soon found herself safe in a thick wood.
 
-![](/static/images/1890/01/plate03.jpg)
+![](/hugo-allover-theme/images/1890/01/plate03.jpg)
 {{% caption "The Duchess tucked her arm affectionately into Alice's." %}}
 
 "The first thing I've got to do," said Alice to herself, as she wandered about in the wood, "is to grow to my right size again; and the second thing is to find my way into that lovely garden. I suppose I ought to eat or drink something or other, but the great question is 'What?'"
 
 Alice looked all around her at the flowers and the blades of grass, but she could not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near her, about the same height as herself. She stretched herself up on tiptoe and peeped over the edge and her eyes immediately met those of a large blue caterpillar, that was sitting on the top, with its arms folded, quietly smoking a long hookah and taking not the smallest notice of her or of anything else.
 
-![](/static/images/1890/01/i012.jpg)
+![](/hugo-allover-theme/images/1890/01/i012.jpg)
 
