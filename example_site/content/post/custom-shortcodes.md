@@ -3,7 +3,8 @@ date = 2019-05-07T20:16:18+02:00
 title = "Custom Shortcodes"
 draft = false
 tags = ["shortcodes", "formatting"]
-# image = "/images/201X/XX/"
+image = "/images/1890/01/i021.jpg"
+image_within = true
 
 +++
 

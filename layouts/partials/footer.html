@@ -1,4 +1,6 @@
 <footer class="site-footer">
-  <p><a href="{{ print .Site.BaseURL }}/rss.xml">RSS</a> | <a href="https://twitter.com/{{ .Site.Params.twitter }}">Twitter</a></p>
+  <ul class="footer-nav">
+    {{ range .Site.Menus.footer }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}
+  </ul>
   <p>{{ .Site.Copyright }} Published with <a href="https://gohugo.io">Hugo</a>.</p>
 </footer>

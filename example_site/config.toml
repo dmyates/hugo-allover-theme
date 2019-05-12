@@ -63,3 +63,12 @@ name = "Glass"
 identifier = "glass"
 url = "/glass/"
 
+[[menu.footer]]
+name = "RSS"
+identifier = "RSS"
+url = "/rss.xml" 
+
+[[menu.footer]]
+name = "Twitter"
+identifier = "Twitter"
+url = "https://twitter.com/@davidyat_es" 
