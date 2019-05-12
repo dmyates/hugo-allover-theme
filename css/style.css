@@ -124,9 +124,20 @@ nav a:visited
 .site-footer a:visited
 {
 	font-weight: bold;
-	font-family: sans-serif;
 	color: inherit;
 }
+
+.footer-nav { list-style: none; }
+.footer-nav li { display: inline-block; }
+
+.footer-nav li a
+{
+	font-family: sans-serif;
+	padding: 0.5em;
+}
+
+.site-footer li:after { content: "|"; }
+.site-footer li:last-child:after { content: normal; }
 
 /* Site body */
 
