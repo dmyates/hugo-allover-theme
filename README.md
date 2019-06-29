@@ -73,7 +73,7 @@ Nice pale yellow inline hint boxes with a sans-serif font.
 
 These hint boxes look like this:
 
-![](https://github.com/dmyates/hugo-allover-theme/blob/master/hint-box.png)
+![](https://github.com/dmyates/hugo-allover-theme/blob/master/images/hint-box.png)
 
 ### Captions
 
