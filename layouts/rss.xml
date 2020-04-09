@@ -10,7 +10,7 @@
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
-    {{ range first 15 (where .Data.Pages "Section" "post") }}
+    {{ range first 15 (where .Site.RegularPages "Section" "post") }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -20,7 +20,7 @@
       <content:encoded>
         {{ `<![CDATA[` | safeHTML }}
         {{ if and (isset .Params "image") (not (isset .Params "image_within")) }}<img src="/content{{ .Params.image }}" class="post-img" />{{ end }}
-        {{ .Content | safeHTML }}
+        {{ .Content }}
         {{ `]]>` | safeHTML }}
       </content:encoded>
     </item>

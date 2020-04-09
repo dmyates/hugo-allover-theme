@@ -1,7 +1,4 @@
-{{ partial "head.html" . }}
-<body>
-  {{ partial "header.html" . }}
-
+{{ define "main" }}
   <main class="content" role="main">
     <div class="tag-page-heading">Posts tagged with "{{ lower .Title }}"</div>
     {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
@@ -9,8 +6,5 @@
       {{ partial "post-list-item.html" . }}
     {{ end }}
   </main>
-
   {{ partial "pagination.html" . }}
-  {{ partial "footer.html" . }}
-</body>
-</html>
+{{ end }}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>{{ if .Title }}{{ .Title }}{{ end }}</title>
+    {{ $descrip := "" }}
+    {{ if isset .Site.Params "descriptions" }}
+      {{ $descrip := .Site.Params.descriptions | shuffle | first 1 }}
+      {{ $descrip := delimit $descrip "" }}
+    {{ end }}
+    <meta property="description" content="{{if eq .Section "post" }}{{ .Summary }}{{ else }}{{ print $descrip }}{{ end }}" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {{ if isset .Site.Params "gsvcode" }}
+    <meta name="google-site-verification" content="{{ .Site.Params.gsvcode }}" />
+  {{ end }}
+
+    <meta property="og:site_name" content="{{ .Site.Title }}" />
+    <meta property="og:title" content="{{ .Title }}" />
+    <meta property="og:description" content="{{if eq .Section "post" }}{{ .Summary }}{{ else }}{{ print $descrip }}{{ end }}" />
+    <meta property="og:type" content="{{ if eq .Section "post" }}article{{ else }}website{{ end }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    {{if isset .Params "image" }}<meta property="og:image" content="{{ print .Site.BaseURL }}{{ print .Params.image}}" />{{ end }}
+
+    <link rel="shortcut icon" href="{{ print .Site.BaseURL }}/favicon.ico">
+
+    <link rel="stylesheet" href="{{ print .Site.BaseURL }}/css/style.css">
+    {{ hugo.Generator }}
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="/rss" />
+  </head>
+  <body>
+    {{ block "header" . }}
+      <div class="site-header">
+        {{ partial "navigation.html" . }}
+        <header>
+          <span class="site-title"><a href="{{ print .Site.BaseURL }}">{{ .Site.Title }}</a></span>
+          <div class="site-description">{{ if isset .Site.Params "descriptions" }}{{ $description := .Site.Params.descriptions | shuffle | first 1 }}{{ delimit $description "" }}{{ end }}</div>
+        </header>
+      </div>
+      {{ partial "searchglass.html" . }}
+    {{ end }}
+    {{ block "main" . }}
+    {{ end}}
+    {{ block "footer" . }}
+      {{ partial "footer.html" . }}
+    {{ end}}
+  </body>
+</html>

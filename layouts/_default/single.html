@@ -1,7 +1,4 @@
-{{ partial "head.html" . }}
-<body>
-  {{ partial "header.html" . }}
-
+{{ define "main" }}
   <main role="main" class="page">
     <div class="post-content">
       <div class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
@@ -22,7 +19,4 @@
       {{ partial "post-footer.html" . }}
     {{ end }}
   </main>
-
-  {{ partial "footer.html" . }}
-</body>
-</html>
+{{ end }}
