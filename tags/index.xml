@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on wonderland</title>
+    <link>https://dmyates.github.io/hugo-allover-theme/tags/</link>
+    <description>Recent content in Tags on wonderland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
+    <lastBuildDate>Tue, 07 May 2019 20:16:18 +0200</lastBuildDate>
+    
+	<atom:link href="https://dmyates.github.io/hugo-allover-theme/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>formatting</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/formatting/</link>
+      <pubDate>Tue, 07 May 2019 20:16:18 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/formatting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shortcodes</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/shortcodes/</link>
+      <pubDate>Tue, 07 May 2019 20:16:18 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/markdown/</link>
+      <pubDate>Tue, 07 May 2019 20:08:52 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>alice</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/alice/</link>
+      <pubDate>Mon, 07 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/alice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>little bill</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/little-bill/</link>
+      <pubDate>Mon, 07 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/little-bill/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>white rabbit</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/white-rabbit/</link>
+      <pubDate>Mon, 07 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/white-rabbit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>long tail</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/long-tail/</link>
+      <pubDate>Sun, 06 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/long-tail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>long tale</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/long-tale/</link>
+      <pubDate>Sun, 06 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/long-tale/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>curiouser</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/curiouser/</link>
+      <pubDate>Sat, 05 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/curiouser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mice</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/mice/</link>
+      <pubDate>Sat, 05 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/mice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>down down down</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/down-down-down/</link>
+      <pubDate>Fri, 04 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/down-down-down/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drink me</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/drink-me/</link>
+      <pubDate>Fri, 04 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/drink-me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eat me</title>
+      <link>https://dmyates.github.io/hugo-allover-theme/tags/eat-me/</link>
+      <pubDate>Fri, 04 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://dmyates.github.io/hugo-allover-theme/tags/eat-me/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

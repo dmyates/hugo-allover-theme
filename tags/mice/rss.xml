@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mice on wonderland</title>
+    <link>https://example.com/tags/mice/</link>
+    <description>Recent content in mice on wonderland</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
+    <lastBuildDate>Sat, 05 Jul 1862 19:33:58 +0200</lastBuildDate>
+    
+	<atom:link href="https://example.com/tags/mice/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chapter II: The Pool of Tears</title>
+      <link>https://example.com/1862/07/05/ch2-the-pool-of-tears/</link>
+      <pubDate>Sat, 05 Jul 1862 19:33:58 +0200</pubDate>
+      
+      <guid>https://example.com/1862/07/05/ch2-the-pool-of-tears/</guid>
+      <description>&amp;ldquo;Curiouser and curiouser!&amp;rdquo; cried Alice (she was so much surprised that for the moment she quite forgot how to speak good English). &amp;ldquo;Now I&amp;rsquo;m opening out like the largest telescope that ever was! Good-by, feet! Oh, my poor little feet, I wonder who will put on your shoes and stockings for you now, dears? I shall be a great deal too far off to trouble myself about you.&amp;rdquo;
+Just at this moment her head struck against the roof of the hall; in fact, she was now rather more than nine feet high, and she at once took up the little golden key and hurried off to the garden door.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,63 +1,64 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Search Results</title>
-  
-  
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Search Results</title>
     
     
-  
-  <meta property="description" content="" />
-	<meta name="HandheldFriendly" content="True" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-
-  <meta property="og:site_name" content="wonderland" />
-  <meta property="og:title" content="Search Results" />
-  <meta property="og:description" content="" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://dmyates.github.io/hugo-allover-theme/search/" />
+      
+      
+    
+    <meta property="description" content="" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
 
-  <link rel="shortcut icon" href="https://dmyates.github.io/hugo-allover-theme/favicon.ico">
+    <meta property="og:site_name" content="wonderland" />
+    <meta property="og:title" content="Search Results" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/search/" />
+    
 
-  <link rel="stylesheet" href="https://dmyates.github.io/hugo-allover-theme/css/style.css">
-	<meta name="generator" content="Hugo 0.55.5" />
-	<link rel="alternate" type="application/rss+xml" title="wonderland" href="/rss" />
-</head>
+    <link rel="shortcut icon" href="https://example.com/favicon.ico">
 
-<body>
-  <div class="site-header">
-  <nav class="navlink-container">
+    <link rel="stylesheet" href="https://example.com/css/style.css">
+    <meta name="generator" content="Hugo 0.68.3" />
+    <link rel="alternate" type="application/rss+xml" title="wonderland" href="/rss" />
+  </head>
+  <body>
+    
+      <div class="site-header">
+        <nav class="navlink-container">
 	<ul class="navlink-container">
-		<li class="navlink"><a href="/hugo-allover-theme/alice/">Alice</a></li>
-		<li class="navlink"><a href="/hugo-allover-theme/glass/">Glass</a></li>
-		<li class="navlink"><a href="/hugo-allover-theme/looking/">Looking</a></li>
+		<li class="navlink"><a href="/alice/">Alice</a></li>
+		<li class="navlink"><a href="/glass/">Glass</a></li>
+		<li class="navlink"><a href="/looking/">Looking</a></li>
 		
 	</ul>
 </nav>
 
-  <header>
-    <span class="site-title"><a href="https://dmyates.github.io/hugo-allover-theme">wonderland</a></span>
-    <div class="site-description">Why is a raven like a writing-desk?</div>
-  </header>
+        <header>
+          <span class="site-title"><a href="https://example.com">wonderland</a></span>
+          <div class="site-description">She's under sentence of execution.</div>
+        </header>
+      </div>
+      <div class="search-container">
+  <div id="search-glass" class="search-glass"><a href="https://example.com/search">🔍</a></div>
 </div>
-<div class="search-container">
-  <div id="search-glass" class="search-glass"><a href="https://dmyates.github.io/hugo-allover-theme/search">🔍</a></div>
-</div>
 
 
 
 
-
+    
+    
   <main class="content" role="main">
     <article class="post-content">
       <section class="post-content">
         <h1>Search wonderland</h1>
         <p>Type your search query below.</p>
-        <form action="https://dmyates.github.io/hugo-allover-theme/search">
+        <form action="https://example.com/search">
           <input id="search-query" name="s" style=/>
           <input type="submit" class="search-button" name="Search">
         </form>
@@ -76,7 +77,6 @@
     </article>
   </script>
   </main>
-
   <style>
     input:focus
     {
@@ -84,20 +84,22 @@
       outline-offset: 0;
     }
   </style>
+  <script src="https://example.com/js/jquery.min.js"></script>
+  <script src="https://example.com/js/fuse.min.js"></script>
+  <script src="https://example.com/js/jquery.mark.min.js"></script>
+  <script src="https://example.com/js/search.js"></script>
+  <script>
+    document.getElementById('search-query').focus();
+  </script>
 
-  <footer class="site-footer">
+    
+      <footer class="site-footer">
   <ul class="footer-nav">
-    <li><a href="/hugo-allover-theme/rss.xml">RSS</a></li><li><a href="https://twitter.com/@davidyat_es">Twitter</a></li>
+    <li><a href="/rss.xml">RSS</a></li><li><a href="https://twitter.com/@davidyat_es">Twitter</a></li>
   </ul>
   <p>Theme by David Yates. Text and illustrations from Project Gutenburg. Published with <a href="https://gohugo.io">Hugo</a>.</p>
 </footer>
 
-  <script src="https://dmyates.github.io/hugo-allover-theme/js/jquery.min.js"></script>
-  <script src="https://dmyates.github.io/hugo-allover-theme/js/fuse.min.js"></script>
-  <script src="https://dmyates.github.io/hugo-allover-theme/js/jquery.mark.min.js"></script>
-  <script src="https://dmyates.github.io/hugo-allover-theme/js/search.js"></script>
-  <script>
-    document.getElementById('search-query').focus();
-  </script>
-</body>
+    
+  </body>
 </html>
