@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
@@ -17,7 +17,12 @@
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
-      <description>{{ if and (isset .Params "image") (not (isset .Params "image_within")) }}<img src="/content/{{ .Params.image }}" class="post-img">{{ end }}{{ .Content | html }}</description>
+      <content:encoded>
+        {{ `<![CDATA[` | safeHTML }}
+        {{ if and (isset .Params "image") (not (isset .Params "image_within")) }}<img src="/content{{ .Params.image }}" class="post-img" />{{ end }}
+        {{ .Content | safeHTML }}
+        {{ `]]>` | safeHTML }}
+      </content:encoded>
     </item>
     {{ end }}
   </channel>
