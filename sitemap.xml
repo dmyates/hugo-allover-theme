@@ -1,140 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://example.com/alice/</loc>
+    <loc>https://dmyates.github.io/hugo-allover-theme/alice/</loc>
     <lastmod>2019-05-07T20:57:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/looking/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/looking/</loc>
     <lastmod>2019-05-07T20:57:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/page/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/page/</loc>
     <lastmod>2019-05-07T20:57:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/glass/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/glass/</loc>
     <lastmod>2019-05-07T20:57:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/</loc>
     <lastmod>2019-05-07T20:57:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/2019/05/07/custom-shortcodes/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</loc>
     <lastmod>2019-05-07T20:16:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/formatting/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/formatting/</loc>
     <lastmod>2019-05-07T20:16:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/post/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/post/</loc>
     <lastmod>2019-05-07T20:16:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/shortcodes/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/shortcodes/</loc>
     <lastmod>2019-05-07T20:16:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/</loc>
     <lastmod>2019-05-07T20:16:18+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/markdown/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/markdown/</loc>
     <lastmod>2019-05-07T20:08:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/2019/05/07/markdown-syntax/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/2019/05/07/markdown-syntax/</loc>
     <lastmod>2019-05-07T20:08:52+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/alice/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/alice/</loc>
     <lastmod>1862-07-07T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</loc>
     <lastmod>1862-07-07T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/little-bill/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/little-bill/</loc>
     <lastmod>1862-07-07T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/white-rabbit/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/white-rabbit/</loc>
     <lastmod>1862-07-07T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</loc>
     <lastmod>1862-07-06T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/long-tail/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/long-tail/</loc>
     <lastmod>1862-07-06T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/long-tale/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/long-tale/</loc>
     <lastmod>1862-07-06T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/1862/07/05/ch2-the-pool-of-tears/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/1862/07/05/ch2-the-pool-of-tears/</loc>
     <lastmod>1862-07-05T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/curiouser/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/curiouser/</loc>
     <lastmod>1862-07-05T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/mice/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/mice/</loc>
     <lastmod>1862-07-05T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/1862/07/04/ch1-down-the-rabbit-hole/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/1862/07/04/ch1-down-the-rabbit-hole/</loc>
     <lastmod>1862-07-04T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/down-down-down/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/down-down-down/</loc>
     <lastmod>1862-07-04T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/drink-me/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/drink-me/</loc>
     <lastmod>1862-07-04T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/eat-me/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/tags/eat-me/</loc>
     <lastmod>1862-07-04T19:33:58+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/search/</loc>
+  </url><url>
+    <loc>https://dmyates.github.io/hugo-allover-theme/search/</loc>
     <priority>0.1</priority>
   </url>
-  
 </urlset>

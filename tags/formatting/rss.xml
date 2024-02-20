@@ -2,37 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>formatting on wonderland</title>
-    <link>https://example.com/tags/formatting/</link>
+    <link>https://dmyates.github.io/hugo-allover-theme/tags/formatting/</link>
     <description>Recent content in formatting on wonderland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
     <lastBuildDate>Tue, 07 May 2019 20:16:18 +0200</lastBuildDate>
-    
-	<atom:link href="https://example.com/tags/formatting/rss.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="https://dmyates.github.io/hugo-allover-theme/tags/formatting/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Custom Shortcodes</title>
-      <link>https://example.com/2019/05/07/custom-shortcodes/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</link>
       <pubDate>Tue, 07 May 2019 20:16:18 +0200</pubDate>
-      
-      <guid>https://example.com/2019/05/07/custom-shortcodes/</guid>
-      <description>Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.
-Captions Markdown-capable image captions, for if you don&amp;rsquo;t want to use {{&amp;lt; figure &amp;gt;}}:
-Because captions are independent of what they&amp;rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.
-You can create create captions like this:
-{{% caption &amp;quot;Caption text.&amp;quot; %}} Hint boxes You can intersperse your text bodies with nice pale yellow inline &amp;ldquo;hint boxes&amp;rdquo; with a sans-serif font.</description>
+      <guid>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</guid>
+      <description>Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.&#xA;Captions Markdown-capable image captions, for if you don&amp;rsquo;t want to use {{&amp;lt; figure &amp;gt;}}:&#xA;Because captions are independent of what they&amp;rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.&#xA;You can create create captions like this:&#xA;{{% caption &amp;#34;Caption text.&amp;#34; %}} Hint boxes You can intersperse your text bodies with nice pale yellow inline &amp;ldquo;hint boxes&amp;rdquo; with a sans-serif font.</description>
     </item>
-    
     <item>
       <title>Markdown Syntax</title>
-      <link>https://example.com/2019/05/07/markdown-syntax/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/2019/05/07/markdown-syntax/</link>
       <pubDate>Tue, 07 May 2019 20:08:52 +0200</pubDate>
-      
-      <guid>https://example.com/2019/05/07/markdown-syntax/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/2019/05/07/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

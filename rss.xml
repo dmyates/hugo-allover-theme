@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>wonderland</title>
-    <link>https://example.com/</link>
+    <link>https://dmyates.github.io/hugo-allover-theme/</link>
     <description>Recent content on wonderland</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
     <lastBuildDate>Tue, 07 May 2019 20:57:47 +0200</lastBuildDate>
-    <atom:link href="https://example.com/" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dmyates.github.io/hugo-allover-theme/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Custom Shortcodes</title>
-      <link>https://example.com/2019/05/07/custom-shortcodes/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</link>
       <pubDate>Tue, 07 May 2019 20:16:18 +0200</pubDate>
       
-      <guid>https://example.com/2019/05/07/custom-shortcodes/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</guid>
       <content:encoded>
         <![CDATA[
         
@@ -25,14 +25,14 @@
 <!-- raw HTML omitted -->
 <p>Because captions are independent of what they&rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.</p>
 <p>You can create create captions like this:</p>
-<pre><code>{{% caption &quot;Caption text.&quot; %}}
+<pre tabindex="0"><code>{{% caption &#34;Caption text.&#34; %}}
 </code></pre><h1 id="hint-boxes">Hint boxes</h1>
 <p>You can intersperse your text bodies with nice pale yellow inline &ldquo;hint boxes&rdquo; with a sans-serif font. These can be short notes&hellip;</p>
 <!-- raw HTML omitted -->
 <p>&hellip;or long sidebars with their own complex formatting.</p>
 <!-- raw HTML omitted -->
 <p>The syntax for hint boxes looks like this:</p>
-<pre><code>{{% hint-box %}}
+<pre tabindex="0"><code>{{% hint-box %}}
 **Warning**: It is very dangerous to run with scissors.
 {{% /hint-box %}}
 </code></pre>
@@ -42,10 +42,10 @@
     
     <item>
       <title>Markdown Syntax</title>
-      <link>https://example.com/2019/05/07/markdown-syntax/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/2019/05/07/markdown-syntax/</link>
       <pubDate>Tue, 07 May 2019 20:08:52 +0200</pubDate>
       
-      <guid>https://example.com/2019/05/07/markdown-syntax/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/2019/05/07/markdown-syntax/</guid>
       <content:encoded>
         <![CDATA[
         
@@ -114,11 +114,11 @@
 </table>
 <h2 id="code-blocks">Code Blocks</h2>
 <h4 id="code-block-with-backticks">Code block with backticks</h4>
-<pre><code>html
+<pre tabindex="0"><code>html
 &lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
-  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
   &lt;title&gt;Example HTML5 Document&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -138,16 +138,16 @@
 &lt;/html&gt;
 </code></pre>
 <h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
-<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></span></span></code></pre></div>
 <h2 id="list-types">List Types</h2>
 <h4 id="ordered-list">Ordered List</h4>
 <ol>
@@ -176,24 +176,24 @@
 <p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
 <p>Press <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> to end the session.</p>
 <p>Most <!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
-<section class="footnotes" role="doc-endnotes">
+<div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
-<li id="fn:1" role="doc-endnote">
-<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
-</section>
+</div>
         ]]>
       </content:encoded>
     </item>
     
     <item>
       <title>Chapter IV: The Rabbit Sends in a Little Bill</title>
-      <link>https://example.com/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</link>
       <pubDate>Mon, 07 Jul 1862 19:33:58 +0200</pubDate>
       
-      <guid>https://example.com/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/1862/07/07/ch4-the-rabbit-sends-in-a-little-bill/</guid>
       <content:encoded>
         <![CDATA[
         
@@ -222,7 +222,7 @@
 <p>So she swallowed one of the cakes and was delighted to find that she began shrinking directly. As soon as she was small enough to get through the door, she ran out of the house and found quite a crowd of little animals and birds waiting outside. They all made a rush at Alice the moment she appeared, but she ran off as hard as she could and soon found herself safe in a thick wood.</p>
 <p><img src="/hugo-allover-theme/images/1890/01/plate03.jpg" alt=""></p>
 <!-- raw HTML omitted -->
-<p>&ldquo;The first thing I&rsquo;ve got to do,&rdquo; said Alice to herself, as she wandered about in the wood, &ldquo;is to grow to my right size again; and the second thing is to find my way into that lovely garden. I suppose I ought to eat or drink something or other, but the great question is &lsquo;What?'&rdquo;</p>
+<p>&ldquo;The first thing I&rsquo;ve got to do,&rdquo; said Alice to herself, as she wandered about in the wood, &ldquo;is to grow to my right size again; and the second thing is to find my way into that lovely garden. I suppose I ought to eat or drink something or other, but the great question is &lsquo;What?&rsquo;&rdquo;</p>
 <p>Alice looked all around her at the flowers and the blades of grass, but she could not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near her, about the same height as herself. She stretched herself up on tiptoe and peeped over the edge and her eyes immediately met those of a large blue caterpillar, that was sitting on the top, with its arms folded, quietly smoking a long hookah and taking not the smallest notice of her or of anything else.</p>
 <p><img src="/hugo-allover-theme/images/1890/01/i012.jpg" alt=""></p>
 
@@ -232,10 +232,10 @@
     
     <item>
       <title>Chapter III: A Caucus-Race and a Long Tale</title>
-      <link>https://example.com/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</link>
       <pubDate>Sun, 06 Jul 1862 19:33:58 +0200</pubDate>
       
-      <guid>https://example.com/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/1862/07/06/ch3-a-caucus-race-and-a-long-tale/</guid>
       <content:encoded>
         <![CDATA[
         
@@ -249,7 +249,7 @@
 <p>&ldquo;Found <em>what</em>?&rdquo; said the Duck.</p>
 <p>&ldquo;Found <em>it</em>,&rdquo; the Mouse replied rather crossly; &ldquo;of course, you know what &lsquo;it&rsquo; means.&rdquo;</p>
 <p>&ldquo;I know what &lsquo;it&rsquo; means well enough, when <em>I</em> find a thing,&rdquo; said the Duck; &ldquo;it&rsquo;s generally a frog or a worm. The question is, what did the archbishop find?&rdquo;</p>
-<p>The Mouse did not notice this question, but hurriedly went on, &ldquo;'&ndash;found it advisable to go with Edgar Atheling to meet William and offer him the crown.'&ndash;How are you getting on now, my dear?&rdquo; it continued, turning to Alice as it spoke.</p>
+<p>The Mouse did not notice this question, but hurriedly went on, &ldquo;&rsquo;&ndash;found it advisable to go with Edgar Atheling to meet William and offer him the crown.&rsquo;&ndash;How are you getting on now, my dear?&rdquo; it continued, turning to Alice as it spoke.</p>
 <p>&ldquo;As wet as ever,&rdquo; said Alice in a melancholy tone; &ldquo;it doesn&rsquo;t seem to dry me at all.&rdquo;</p>
 <p>&ldquo;In that case,&rdquo; said the Dodo solemnly, rising to its feet, &ldquo;I move that the meeting adjourn, for the immediate adoption of more energetic remedies&ndash;&rdquo;</p>
 <p>&ldquo;Speak English!&rdquo; said the Eaglet. &ldquo;I don&rsquo;t know the meaning of half those long words, and, what&rsquo;s more, I don&rsquo;t believe you do either!&rdquo;</p>
@@ -328,10 +328,10 @@ death.'&quot;
     
     <item>
       <title>Chapter II: The Pool of Tears</title>
-      <link>https://example.com/1862/07/05/ch2-the-pool-of-tears/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/1862/07/05/ch2-the-pool-of-tears/</link>
       <pubDate>Sat, 05 Jul 1862 19:33:58 +0200</pubDate>
       
-      <guid>https://example.com/1862/07/05/ch2-the-pool-of-tears/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/1862/07/05/ch2-the-pool-of-tears/</guid>
       <content:encoded>
         <![CDATA[
         
@@ -367,10 +367,10 @@ rather not.&rdquo;</p>
     
     <item>
       <title>Chapter I: Down the Rabbit-Hole</title>
-      <link>https://example.com/1862/07/04/ch1-down-the-rabbit-hole/</link>
+      <link>https://dmyates.github.io/hugo-allover-theme/1862/07/04/ch1-down-the-rabbit-hole/</link>
       <pubDate>Fri, 04 Jul 1862 19:33:58 +0200</pubDate>
       
-      <guid>https://example.com/1862/07/04/ch1-down-the-rabbit-hole/</guid>
+      <guid>https://dmyates.github.io/hugo-allover-theme/1862/07/04/ch1-down-the-rabbit-hole/</guid>
       <content:encoded>
         <![CDATA[
         
