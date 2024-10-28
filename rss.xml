@@ -22,20 +22,33 @@
 <h1 id="captions">Captions</h1>
 <p>Markdown-capable image captions, for if you don&rsquo;t want to use <code>{{&lt; figure &gt;}}</code>:</p>
 <p><img src="/hugo-allover-theme/images/1890/01/i021.jpg" alt=""></p>
-<!-- raw HTML omitted -->
+<div class="caption">This is a caption. It can <code>contain</code> <strong>markdown</strong>. However, it&rsquo;s forced italic through CSS.</div>
 <p>Because captions are independent of what they&rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.</p>
 <p>You can create create captions like this:</p>
-<pre tabindex="0"><code>{{% caption &#34;Caption text.&#34; %}}
-</code></pre><h1 id="hint-boxes">Hint boxes</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="nx">caption</span><span class="w"> </span><span class="s">&#34;Caption text.&#34;</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span></code></pre></div><h1 id="hint-boxes">Hint boxes</h1>
 <p>You can intersperse your text bodies with nice pale yellow inline &ldquo;hint boxes&rdquo; with a sans-serif font. These can be short notes&hellip;</p>
-<!-- raw HTML omitted -->
+<aside class="hint-box"><p><strong>Warning</strong>: It is very dangerous to run with scissors.</p></aside>
 <p>&hellip;or long sidebars with their own complex formatting.</p>
-<!-- raw HTML omitted -->
+<aside class="hint-box"><p><p>These boxes can also be used for long sidebars. I generally use them for anything that&rsquo;s too important for a footnote but doesn&rsquo;t quite flow with the main text.</p>
+<p><img src="/hugo-allover-theme/images/1890/01/i022.jpg" alt=""></p>
+<div class="caption">Shortcodes can be used in hint boxes.</div>
+<p>You can put any formatting in here. Footnotes<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> can be used as long as you keep both the ref and actual note in the box.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span> <span class="s2">&#34;Hello World!&#34;</span>
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Like this.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</p></aside>
 <p>The syntax for hint boxes looks like this:</p>
-<pre tabindex="0"><code>{{% hint-box %}}
-**Warning**: It is very dangerous to run with scissors.
-{{% /hint-box %}}
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="nx">hint</span><span class="err">-</span><span class="nx">box</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">**Warning**: It is very dangerous to run with scissors.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="err">/</span><span class="nx">hint</span><span class="err">-</span><span class="nx">box</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span></code></pre></div>
         ]]>
       </content:encoded>
     </item>
@@ -70,47 +83,47 @@
 </blockquote>
 <h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
 <blockquote>
-<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<!-- raw HTML omitted -->
-— <!-- raw HTML omitted -->Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><!-- raw HTML omitted --></p>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.</p>
+— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
 </blockquote>
 <h2 id="tables">Tables</h2>
 <p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
 <table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Name</th>
+          <th>Age</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Bob</td>
+          <td>27</td>
+      </tr>
+      <tr>
+          <td>Alice</td>
+          <td>23</td>
+      </tr>
+  </tbody>
 </table>
 <h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
 <table>
-<thead>
-<tr>
-<th>Inline   </th>
-<th>Markdown   </th>
-<th>In   </th>
-<th>Table</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>italics</em></td>
-<td><strong>bold</strong></td>
-<td><del>strikethrough</del>   </td>
-<td><code>code</code></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>Inline   </th>
+          <th>Markdown   </th>
+          <th>In   </th>
+          <th>Table</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><em>italics</em></td>
+          <td><strong>bold</strong></td>
+          <td><del>strikethrough</del>   </td>
+          <td><code>code</code></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="code-blocks">Code Blocks</h2>
 <h4 id="code-block-with-backticks">Code block with backticks</h4>
@@ -171,11 +184,11 @@
 </li>
 </ul>
 <h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
-<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> is a bitmap image format.</p>
-<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
-<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
-<p>Press <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> to end the session.</p>
-<p>Most <!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
+<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -221,7 +234,7 @@
 <p>&ldquo;A barrowful of <em>what</em>?&rdquo; thought Alice. But she had not long to doubt, for the next moment a shower of little pebbles came rattling in at the window and some of them hit her in the face. Alice noticed, with some surprise, that the pebbles were all turning into little cakes as they lay on the floor and a bright idea came into her head. &ldquo;If I eat one of these cakes,&rdquo; she thought, &ldquo;it&rsquo;s sure to make <em>some</em> change in my size.&rdquo;</p>
 <p>So she swallowed one of the cakes and was delighted to find that she began shrinking directly. As soon as she was small enough to get through the door, she ran out of the house and found quite a crowd of little animals and birds waiting outside. They all made a rush at Alice the moment she appeared, but she ran off as hard as she could and soon found herself safe in a thick wood.</p>
 <p><img src="/hugo-allover-theme/images/1890/01/plate03.jpg" alt=""></p>
-<!-- raw HTML omitted -->
+<div class="caption">The Duchess tucked her arm affectionately into Alice&rsquo;s.</div>
 <p>&ldquo;The first thing I&rsquo;ve got to do,&rdquo; said Alice to herself, as she wandered about in the wood, &ldquo;is to grow to my right size again; and the second thing is to find my way into that lovely garden. I suppose I ought to eat or drink something or other, but the great question is &lsquo;What?&rsquo;&rdquo;</p>
 <p>Alice looked all around her at the flowers and the blades of grass, but she could not see anything that looked like the right thing to eat or drink under the circumstances. There was a large mushroom growing near her, about the same height as herself. She stretched herself up on tiptoe and peeped over the edge and her eyes immediately met those of a large blue caterpillar, that was sitting on the top, with its arms folded, quietly smoking a long hookah and taking not the smallest notice of her or of anything else.</p>
 <p><img src="/hugo-allover-theme/images/1890/01/i012.jpg" alt=""></p>
@@ -355,7 +368,7 @@ death.'&quot;
 rather not.&rdquo;</p>
 <p>&ldquo;We, indeed!&rdquo; cried the Mouse, who was trembling down to the end of its tail. &ldquo;As if <em>I</em> would talk on such a subject! Our family always <em>hated</em> cats&ndash;nasty, low, vulgar things! Don&rsquo;t let me hear the name again!&rdquo;</p>
 <p><img src="/hugo-allover-theme/images/1890/01/plate02.jpg" alt=""></p>
-<!-- raw HTML omitted -->
+<div class="caption">Alice at the Mad Tea Party</div>
 <p>&ldquo;I won&rsquo;t indeed!&rdquo; said Alice, in a great hurry to change the subject of conversation. &ldquo;Are you&ndash;are you fond&ndash;of&ndash;of dogs? There is such a nice little dog near our house, I should like to show you! It kills all the rats and&ndash;oh, dear!&rdquo; cried Alice in a sorrowful tone. &ldquo;I&rsquo;m afraid I&rsquo;ve offended it again!&rdquo; For the Mouse was swimming away from her as hard as it could go, and making quite a commotion in the pool as it went.</p>
 <p>So she called softly after it, &ldquo;Mouse dear! Do come back again, and we won&rsquo;t talk about cats, or dogs either, if you don&rsquo;t like them!&rdquo; When the Mouse heard this, it turned &lsquo;round and swam slowly back to her; its face was quite pale, and it said, in a low, trembling voice, &ldquo;Let us get to the shore and then I&rsquo;ll tell you my history and you&rsquo;ll understand why it is I hate cats and dogs.&rdquo;</p>
 <p>It was high time to go, for the pool was getting quite crowded with the birds and animals that had fallen into it; there were a Duck and a Dodo, a Lory and an Eaglet, and several other curious creatures. Alice led the way and the whole party swam to the shore.</p>

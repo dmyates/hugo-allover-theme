@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>shortcodes on wonderland</title>
+    <title>Shortcodes on wonderland</title>
     <link>https://dmyates.github.io/hugo-allover-theme/tags/shortcodes/</link>
-    <description>Recent content in shortcodes on wonderland</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Shortcodes on wonderland</description>
+    <generator>Hugo</generator>
     <language>en-gb</language>
     <copyright>Theme by David Yates. Text and illustrations from Project Gutenburg.</copyright>
     <lastBuildDate>Tue, 07 May 2019 20:16:18 +0200</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</link>
       <pubDate>Tue, 07 May 2019 20:16:18 +0200</pubDate>
       <guid>https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/</guid>
-      <description>Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.&#xA;Captions Markdown-capable image captions, for if you don&amp;rsquo;t want to use {{&amp;lt; figure &amp;gt;}}:&#xA;Because captions are independent of what they&amp;rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.&#xA;You can create create captions like this:&#xA;{{% caption &amp;#34;Caption text.&amp;#34; %}} Hint boxes You can intersperse your text bodies with nice pale yellow inline &amp;ldquo;hint boxes&amp;rdquo; with a sans-serif font.</description>
+      <description>&lt;p&gt;Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.&lt;/p&gt;&#xA;&lt;h1 id=&#34;captions&#34;&gt;Captions&lt;/h1&gt;&#xA;&lt;p&gt;Markdown-capable image captions, for if you don&amp;rsquo;t want to use &lt;code&gt;{{&amp;lt; figure &amp;gt;}}&lt;/code&gt;:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://dmyates.github.io/hugo-allover-theme/hugo-allover-theme/images/1890/01/i021.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;caption&#34;&gt;This is a caption. It can &lt;code&gt;contain&lt;/code&gt; &lt;strong&gt;markdown&lt;/strong&gt;. However, it&amp;rsquo;s forced italic through CSS.&lt;/div&gt;&#xA;&lt;p&gt;Because captions are independent of what they&amp;rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.&lt;/p&gt;&#xA;&lt;p&gt;You can create create captions like this:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

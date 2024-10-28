@@ -10,10 +10,12 @@
       
     
     <meta property="description" content="Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.
-Captions Markdown-capable image captions, for if you don&rsquo;t want to use {{&lt; figure &gt;}}:
+Captions
+Markdown-capable image captions, for if you don&rsquo;t want to use {{&lt; figure &gt;}}:
+
+This is a caption. It can contain markdown. However, it&rsquo;s forced italic through CSS.
 Because captions are independent of what they&rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.
-You can create create captions like this:
-{{% caption &#34;Caption text.&#34; %}} Hint boxes You can intersperse your text bodies with nice pale yellow inline &ldquo;hint boxes&rdquo; with a sans-serif font." />
+You can create create captions like this:" />
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
@@ -21,18 +23,20 @@ You can create create captions like this:
     <meta property="og:site_name" content="wonderland" />
     <meta property="og:title" content="Custom Shortcodes" />
     <meta property="og:description" content="Allover comes with a couple of shortcodes that I find quite useful, and perhaps you will too.
-Captions Markdown-capable image captions, for if you don&rsquo;t want to use {{&lt; figure &gt;}}:
+Captions
+Markdown-capable image captions, for if you don&rsquo;t want to use {{&lt; figure &gt;}}:
+
+This is a caption. It can contain markdown. However, it&rsquo;s forced italic through CSS.
 Because captions are independent of what they&rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.
-You can create create captions like this:
-{{% caption &#34;Caption text.&#34; %}} Hint boxes You can intersperse your text bodies with nice pale yellow inline &ldquo;hint boxes&rdquo; with a sans-serif font." />
+You can create create captions like this:" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://dmyates.github.io/hugo-allover-theme/2019/05/07/custom-shortcodes/" />
-    <meta property="og:image" content="https://dmyates.github.io/hugo-allover-theme/images/1890/01/i021.jpg" />
+    <meta property="og:image" content="https://dmyates.github.io/hugo-allover-theme//images/1890/01/i021.jpg" />
 
-    <link rel="shortcut icon" href="https://dmyates.github.io/hugo-allover-theme/favicon.ico">
+    <link rel="shortcut icon" href="https://dmyates.github.io/hugo-allover-theme//favicon.ico">
 
-    <link rel="stylesheet" href="https://dmyates.github.io/hugo-allover-theme/css/style.css">
-    <meta name="generator" content="Hugo 0.122.0">
+    <link rel="stylesheet" href="https://dmyates.github.io/hugo-allover-theme//css/style.css">
+    <meta name="generator" content="Hugo 0.136.5">
     <link rel="alternate" type="application/rss+xml" title="wonderland" href="/rss" />
   </head>
   <body>
@@ -48,12 +52,12 @@ You can create create captions like this:
 </nav>
 
         <header>
-          <span class="site-title"><a href="https://dmyates.github.io/hugo-allover-theme">wonderland</a></span>
-          <div class="site-description">And what is the use of a book without pictures or conversations?</div>
+          <span class="site-title"><a href="https://dmyates.github.io/hugo-allover-theme/">wonderland</a></span>
+          <div class="site-description">It&#39;s very easy to take more than nothing.</div>
         </header>
       </div>
       <div class="search-container">
-  <div id="search-glass" class="search-glass"><a href="https://dmyates.github.io/hugo-allover-theme/search">🔍</a></div>
+  <div id="search-glass" class="search-glass"><a href="https://dmyates.github.io/hugo-allover-theme//search">🔍</a></div>
 </div>
 
 
@@ -85,20 +89,33 @@ You can create create captions like this:
 <h1 id="captions">Captions</h1>
 <p>Markdown-capable image captions, for if you don&rsquo;t want to use <code>{{&lt; figure &gt;}}</code>:</p>
 <p><img src="/hugo-allover-theme/images/1890/01/i021.jpg" alt=""></p>
-<!-- raw HTML omitted -->
+<div class="caption">This is a caption. It can <code>contain</code> <strong>markdown</strong>. However, it&rsquo;s forced italic through CSS.</div>
 <p>Because captions are independent of what they&rsquo;re captions, you can use them for codeblocks, video embeds, and anything else you want, not just images.</p>
 <p>You can create create captions like this:</p>
-<pre tabindex="0"><code>{{% caption &#34;Caption text.&#34; %}}
-</code></pre><h1 id="hint-boxes">Hint boxes</h1>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="nx">caption</span><span class="w"> </span><span class="s">&#34;Caption text.&#34;</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span></code></pre></div><h1 id="hint-boxes">Hint boxes</h1>
 <p>You can intersperse your text bodies with nice pale yellow inline &ldquo;hint boxes&rdquo; with a sans-serif font. These can be short notes&hellip;</p>
-<!-- raw HTML omitted -->
+<aside class="hint-box"><p><strong>Warning</strong>: It is very dangerous to run with scissors.</p></aside>
 <p>&hellip;or long sidebars with their own complex formatting.</p>
-<!-- raw HTML omitted -->
+<aside class="hint-box"><p><p>These boxes can also be used for long sidebars. I generally use them for anything that&rsquo;s too important for a footnote but doesn&rsquo;t quite flow with the main text.</p>
+<p><img src="/hugo-allover-theme/images/1890/01/i022.jpg" alt=""></p>
+<div class="caption">Shortcodes can be used in hint boxes.</div>
+<p>You can put any formatting in here. Footnotes<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> can be used as long as you keep both the ref and actual note in the box.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span> <span class="s2">&#34;Hello World!&#34;</span>
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Like this.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</p></aside>
 <p>The syntax for hint boxes looks like this:</p>
-<pre tabindex="0"><code>{{% hint-box %}}
-**Warning**: It is very dangerous to run with scissors.
-{{% /hint-box %}}
-</code></pre>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-go-html-template" data-lang="go-html-template"><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="nx">hint</span><span class="err">-</span><span class="nx">box</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span><span class="line"><span class="cl">**Warning**: It is very dangerous to run with scissors.
+</span></span><span class="line"><span class="cl"><span class="cp">{{</span><span class="err">%</span><span class="w"> </span><span class="err">/</span><span class="nx">hint</span><span class="err">-</span><span class="nx">box</span><span class="w"> </span><span class="err">%</span><span class="cp">}}</span>
+</span></span></code></pre></div>
       </div>
     </div>
     
