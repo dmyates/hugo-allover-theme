@@ -21,7 +21,7 @@ Because captions are independent of what they're captions, you can use them for 
 
 You can create create captions like this:
 
-```
+```go-html-template
 {{%/* caption "Caption text." */%}}
 ```
 
@@ -52,7 +52,7 @@ print "Hello World!"
 
 The syntax for hint boxes looks like this:
 
-```
+```go-html-template
 {{%/* hint-box */%}}
 **Warning**: It is very dangerous to run with scissors.
 {{%/* /hint-box */%}}

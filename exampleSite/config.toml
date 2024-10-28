@@ -35,6 +35,12 @@ extensions = [
 	"DefinitionLists",
 ]
 
+# Allow shortcodes in Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [permalinks]
 post = "/:year/:month/:day/:filename/"
 page = "/:filename/"
